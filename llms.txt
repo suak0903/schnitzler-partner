@@ -1,0 +1,22 @@
+# Schnitzler & Partner Steuerberatungsgesellschaft mbB
+
+> Steuerberatungsgesellschaft in Mönchengladbach, seit mehr als 50 Jahren spezialisiert auf die gehobene steuerliche und betriebswirtschaftliche Beratung und Begleitung von Unternehmen und Privatpersonen. Partner: StB Andreas Bartkowski und StB Frank Kirsten, rund 35-köpfiges Team. Motto: Sie - Wir - Lösungen.
+
+Hinweis: Dies ist ein unverbindlicher Entwurf, nicht der offizielle Auftritt. Der offizielle Auftritt ist https://www.schnitzler-und-partner.eu/
+
+## Kontakt
+- Adresse: Konstantinstraße 58/Hof 3, 41238 Mönchengladbach
+- Telefon: +49 (0)2166 9232-0 (tel:+49216692320)
+- E-Mail: kanzlei@schnitzler-partner.de
+- Öffnungszeiten: Montag bis Donnerstag 8.00 bis 16.00 Uhr, Freitag 8.00 bis 12.30 Uhr
+
+## Seiten
+- [Über uns](https://suak0903.github.io/schnitzler-partner/index.html)
+- [Kompetenz](https://suak0903.github.io/schnitzler-partner/kompetenz.html): Unternehmen, Privatpersonen, Sanierungs- und Insolvenzberatung, Unternehmens- und Vermögensnachfolge
+- [Partner und Team](https://suak0903.github.io/schnitzler-partner/partner-und-team.html)
+- [Steuerberater in Vollzeit als zukünftiger Partner](https://suak0903.github.io/schnitzler-partner/wir-suchen-sie.html)
+- [Initiativbewerbung](https://suak0903.github.io/schnitzler-partner/initiativbewerbung.html)
+- [Service](https://suak0903.github.io/schnitzler-partner/service.html): Erfassungsbogen, Fernbetreuung, DATEV Unternehmen online, Formulare
+- [Blog](https://suak0903.github.io/schnitzler-partner/blog.html): 53 Beiträge
+- [In den Medien](https://suak0903.github.io/schnitzler-partner/presse.html): 28 Einträge
+- [Kontakt](https://suak0903.github.io/schnitzler-partner/kontakt.html)
