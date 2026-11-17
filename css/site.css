@@ -443,7 +443,7 @@ a.pkarte:hover .pkarte__img img{transform:scale(1.05)}
 .why4 div{padding:26px;background:var(--weiss);border:1px solid var(--line)}
 .why4 h3{font-size:24px;margin-bottom:8px}
 .why4 p{margin:0;color:var(--muted);font-size:15.5px}
-.refs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.refs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
 .ref{display:flex;flex-direction:column;background:var(--weiss);border:1px solid var(--line)}
 .ref__img{overflow:hidden;aspect-ratio:16/10}
 .ref__img img{width:100%;height:100%;object-fit:cover;object-position:top}
@@ -482,13 +482,13 @@ a.pkarte:hover .pkarte__img img{transform:scale(1.05)}
 .foot__legal button{background:none;border:0;padding:0;color:#fff;cursor:pointer;font-size:13.5px}
 
 /* Demo-Leiste: nur Startseite, schwebend, Kanzleiblau halbtransparent, fadet ein */
-.demobar{position:fixed;left:50%;bottom:18px;z-index:55;transform:translateX(-50%);width:min(720px,calc(100% - 32px));display:flex;align-items:center;justify-content:center;gap:12px;padding:12px 48px 12px 18px;background:rgba(33,88,148,.92);color:#fff;font-size:14px;text-align:center;opacity:0;visibility:hidden;transition:opacity .9s var(--ease),visibility 0s .9s}
+.demobar{position:fixed;left:50%;bottom:18px;z-index:55;transform:translateX(-50%);width:min(720px,calc(100% - 32px));display:flex;align-items:center;justify-content:center;gap:12px;padding:12px 48px 12px 18px;background:rgba(255,255,255,.96);color:var(--nacht);border-left:4px solid var(--azur);font-size:14px;text-align:center;opacity:0;visibility:hidden;transition:opacity .9s var(--ease),visibility 0s .9s}
 .demobar.show{opacity:1;visibility:visible;transition:opacity .9s var(--ease)}
-.demobar a{color:#fff;font-weight:600;text-underline-offset:3px}
+.demobar a{color:var(--blau);font-weight:600;text-underline-offset:3px}
 .demobar__sep{opacity:.6;margin:0 2px 0 4px}
 .demobar__nw{white-space:nowrap}
 body:has(.mmenu.open) .demobar{opacity:0;visibility:hidden}
-.demobar button{position:absolute;right:8px;top:50%;margin-top:-18px;width:36px;height:36px;background:none;border:0;color:#fff;font-size:22px;cursor:pointer}
+.demobar button{position:absolute;right:8px;top:50%;margin-top:-18px;width:36px;height:36px;background:none;border:0;color:var(--nacht);font-size:22px;cursor:pointer}
 
 /* Einblenden */
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s var(--ease),transform .7s var(--ease),border-color .3s var(--ease)}
@@ -522,7 +522,7 @@ body:has(.mmenu.open) .demobar{opacity:0;visibility:hidden}
   .tech,.why4{grid-template-columns:repeat(2,minmax(0,1fr))}
   .ds{grid-template-columns:repeat(3,minmax(0,1fr))}
   .htoc{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .refs{grid-template-columns:minmax(0,1fr)}
+  .refs{grid-template-columns:repeat(2,minmax(0,1fr))}
   .jahre{grid-template-columns:repeat(5,minmax(0,1fr))}
   .subnav{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
@@ -542,7 +542,7 @@ body:has(.mmenu.open) .demobar{opacity:0;visibility:hidden}
   .motto a{border-right:0;border-bottom:1px solid var(--line-d)}
   .motto a:last-child{border-bottom:0}
   .zahlen b{font-size:46px}
-  .kacheln,.posts,.presse,.dl,.teams,.foot__top,.sm,.tech,.why4,.fonts,.htoc{grid-template-columns:minmax(0,1fr)}
+  .kacheln,.posts,.presse,.dl,.teams,.foot__top,.sm,.tech,.why4,.fonts,.htoc,.refs{grid-template-columns:minmax(0,1fr)}
   .kachel:first-child{grid-column:auto}
   .pkarte{grid-template-columns:minmax(0,1fr)}
   .pkarte__img{aspect-ratio:4/3}
