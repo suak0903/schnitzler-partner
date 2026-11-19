@@ -74,9 +74,10 @@ em.b{font-style:italic;color:var(--blau)}
 .nav__links>a,.dd__t{font-size:14.5px;font-weight:600;text-decoration:none;color:#fff;padding:8px 0;border-bottom:1.5px solid transparent;transition:color .25s,border-color .25s;background:none;border-top:0;border-left:0;border-right:0;cursor:pointer}
 .nav__links>a:hover,.dd__t:hover,.nav__links a[aria-current]{border-bottom-color:var(--azur)}
 .nav.scrolled .nav__links>a,.nav.scrolled .dd__t{color:var(--text)}
-.dd{position:relative;height:var(--nav-h);display:flex;align-items:center}
+.dd{position:static;height:var(--nav-h);display:flex;align-items:center}
 .dd__t::after{content:"";display:inline-block;width:6px;height:6px;margin-left:9px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:translateY(-3px) rotate(45deg)}
-.dd__p{position:absolute;top:100%;left:-22px;min-width:330px;background:#fff;border:1px solid var(--line);border-top:2px solid var(--blau);padding:10px 22px 14px;display:grid;opacity:0;visibility:hidden;transition:opacity .25s var(--ease),visibility 0s .25s}
+/* Untermenü endet rechts bündig mit dem Kontakt-Knopf: Bezug ist .nav__in, Abstand rechts gleich dem Innenabstand */
+.dd__p{position:absolute;top:100%;right:var(--gut);min-width:330px;background:#fff;border:1px solid var(--line);border-top:2px solid var(--blau);padding:10px 22px 14px;display:grid;opacity:0;visibility:hidden;transition:opacity .25s var(--ease),visibility 0s .25s}
 .dd:hover .dd__p,.dd:focus-within .dd__p{opacity:1;visibility:visible;transition:opacity .25s var(--ease)}
 .dd__p a{display:block;padding:11px 0;border-bottom:1px solid var(--line);text-decoration:none;font-weight:600;font-size:15px;color:var(--text);transition:color .2s}
 .dd__p a:last-child{border-bottom:0}
