@@ -76,7 +76,7 @@
     rev.forEach(function (el) { el.classList.add('reveal'); });
     var io = new IntersectionObserver(function (en) {
       en.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
-    }, { rootMargin: '0px 0px -6% 0px', threshold: 0.06 });
+    }, { rootMargin: '0px 0px -6% 0px', threshold: 0 }); /* 0 statt 0.06: Ein langer Block (Datenschutz am Handy) erreicht 6 Prozent Sichtanteil nie und blieb unsichtbar */
     rev.forEach(function (el) { io.observe(el); });
     [['.kachel'], ['.post'], ['.mensch'], ['.motto a'], ['.pkarte'], ['.presse a']].forEach(function (s) {
       $$(s[0]).forEach(function (el, i) { el.style.transitionDelay = ((i % 6) * 0.07) + 's'; });
